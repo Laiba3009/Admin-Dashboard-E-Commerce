@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+// next.config.js
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  images: {
+    domains: ['cdn.sanity.io'], // Add this line to allow images from sanity.io
+  },
 };
 
 export default nextConfig;
